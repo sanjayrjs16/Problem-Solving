@@ -1,3 +1,4 @@
+//10 days of JS, HackerRank
 // Q. Program to find the second biggest number in an array, using JS. 
 
 // Algorithm:

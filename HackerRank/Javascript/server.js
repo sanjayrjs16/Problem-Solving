@@ -4,7 +4,8 @@ const PORT = process.env.PORT || 8080;
 
 const app = new express();
 
-const secondBiggestInArray = require('./secondBiggestInArray.js');
+// const secondBiggestInArray = require('./10 days of JS/secondBiggestInArray.js');
+const reverseArray = require('./10 days of JS/reverseString.js')
 
 app.listen(PORT, () => {
     console.log(`Server Listening on port ${PORT}`);
