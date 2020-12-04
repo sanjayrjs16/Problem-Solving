@@ -3,7 +3,7 @@
 //     1. add(name, age) takes in name and age, if age>20, add staff to the HTMLAllCollection, otherwise throw and error saying too young
 //     2. remove(name) takes in a name. Removes member, if present inide collection and returns true, else returns false
 //     3. getSize() returns colection size
-
+//Solution
 class StaffList {
     //add your code here
      constructor(name, age) {
@@ -44,6 +44,19 @@ class StaffList {
   }
 }
 
+
+let cityTigers = new StaffList();
+
+cityTigers.add("San", 21);
+
+cityTigers.add("Shroof", 22);
+
+
+cityTigers.add("Lano", 21);
+
+
+cityTigers.add("916", 20);
+console.log(cityTigers.getMembers())
 
 // Q. The message object has a level and text property. eg. msg1 = {level=10, text="foo"}. Define a function joinedLogger(level, sep), which takes in a level and a seperator.
 //    This function returns another function, which takes in a variable number of parameters(all msg objects) , and checks if any of the them have level > level.
