@@ -6,6 +6,10 @@
 // Delete  from  and  from  so that the remaining strings are  and  which are anagrams. This takes  character deletions.
 
 function makeAnagram(a, b) {
+    let k = {s: "BOOM!!", l: "KABOOM!"}, str = "sl";
+    if(str[0] in k){
+        console.log("Yeah, it's here");
+    }
     let a_arr = a.split("");
     let b_arr = b.split("");
     console.log("A array: ", a_arr," B array: ", b_arr);
